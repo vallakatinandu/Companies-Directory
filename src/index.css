@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@reference "tailwindcss";
+
+@tailwind utilities;
+
+.input-base {
+  @apply w-full px-3 py-2 border rounded-md text-sm bg-white;
+}
